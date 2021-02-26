@@ -1,2 +1,2 @@
 # pixway_game
-this is the pixel game and make with javascript
+This is a pixel game made with JavaScript
