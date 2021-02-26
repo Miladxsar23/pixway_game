@@ -1,0 +1,103 @@
+body {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: url(../images/bg.svg);
+}
+
+.background {
+	background: rgb(52, 166, 251);
+	table-layout: fixed;
+	border-spacing: 0;
+}
+
+.background td { padding: 0; }
+
+.lava {
+	background: url(../images/lava2.png);
+	background-size: contain;
+}
+
+.ofoghi {
+	background-image: url(../images/lava3.png) !important;
+	z-index: 10;
+	background-size: contain;
+	background-position: center;
+}
+
+.amoodi {
+	background-image: url(../images/lava3.png) !important;
+	background-size: contain;
+	background-position: center;
+	z-index: 10;
+}
+
+.wall { background: white; }
+
+.actor { position: absolute; }
+
+.coin {
+	background: url(../images/coin.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.player {
+	background: url(../images/pixel.png);
+	background-size: contain;
+}
+
+.game {
+	overflow: hidden;
+	max-width: 600px;
+	max-height: 450px;
+	position: relative;
+	border: 40px solid rgb(153, 7, 44);
+}
+
+.lost .player {
+	background: url(../images/fire4.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.won .player {
+	background: url(../images/player_win.png);
+	background-size: contain;
+}
+
+.heart {
+	width: 50px;
+	height: 50px;
+	line-height: 11px;
+	position: absolute;
+	top: 40px;
+	left: 50px;
+	background: url(../images/heart-removebg-preview.png);
+	background-size: contain;
+	opacity: 0.5;
+	z-index: 10;
+	text-align: center;
+	color: white;
+}
+
+.heart h3 {
+	color: white;
+}
+
+.joon {
+	color: black;
+}
+
+.monster {
+	background: url(../images/monster.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.player_jump {
+	background: url(../images/player_jump.png);
+	background-size: contain;
+}

@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Milad Shiriyan(Mxworlddd)> -- <javascript developer> -- <@Mxworlddd>
+
+# THANKS
+
+    <Eloquent js>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, javascript
+    Es7, browsersync, copyfiles module, npm-run-all module
