@@ -6,7 +6,7 @@ This is a pixel game made with JavaScript and Dom technology.
 * install npm
 
 # installation
- first download or clone this project and open it in your code editor and open the bash terminal and run this line:
+ first download or clone this project and open it in your code editor and open the terminal and run this line:
  ```shell
 npm install
 ```
