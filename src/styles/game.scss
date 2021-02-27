@@ -1,3 +1,8 @@
+@mixin background($url) {
+	background: $url;
+	background-size: contain;
+}
+
 body {
 	display: flex;
 	flex-flow: row nowrap;
@@ -16,20 +21,19 @@ body {
 .background td { padding: 0; }
 
 .lava {
-	background: url(../images/lava2.png);
-	background-size: contain;
+	@include background(url(../images/lava2.png));
 }
 
 .ofoghi {
-	background-image: url(../images/lava3.png) !important;
+	@include background(url(../images/lava3.png));
+
 	z-index: 10;
-	background-size: contain;
 	background-position: center;
 }
 
 .amoodi {
-	background-image: url(../images/lava3.png) !important;
-	background-size: contain;
+	@include background(url(../images/lava3.png));
+
 	background-position: center;
 	z-index: 10;
 }
@@ -39,14 +43,13 @@ body {
 .actor { position: absolute; }
 
 .coin {
-	background: url(../images/coin.png);
-	background-size: contain;
+	@include background(url(../images/coin.png));
+
 	background-repeat: no-repeat;
 }
 
 .player {
-	background: url(../images/pixel.png);
-	background-size: contain;
+	@include background(url(../images/pixel.png));
 }
 
 .game {
@@ -58,14 +61,13 @@ body {
 }
 
 .lost .player {
-	background: url(../images/fire4.png);
+	@include background(url(../images/fire4.png));
+
 	background-repeat: no-repeat;
-	background-size: contain;
 }
 
 .won .player {
-	background: url(../images/player_win.png);
-	background-size: contain;
+	@include background(url(../images/player_win.png));
 }
 
 .heart {
@@ -75,8 +77,9 @@ body {
 	position: absolute;
 	top: 40px;
 	left: 50px;
-	background: url(../images/heart-removebg-preview.png);
-	background-size: contain;
+
+	@include background(url(../images/heart-removebg-preview.png));
+
 	opacity: 0.5;
 	z-index: 10;
 	text-align: center;
@@ -92,12 +95,11 @@ body {
 }
 
 .monster {
-	background: url(../images/monster.png);
-	background-size: contain;
+	@include background(url(../images/monster.png));
+
 	background-repeat: no-repeat;
 }
 
 .player_jump {
-	background: url(../images/player_jump.png);
-	background-size: contain;
+	@include background(url(../images/player_jump.png));
 }
