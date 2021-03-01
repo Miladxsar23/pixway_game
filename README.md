@@ -10,6 +10,11 @@ This is a pixel game made with JavaScript and Dom technology.
  ```shell
 npm install
 ```
+Now just enter the following command in the terminal:
+ ```shell
+npm start
+```
+
 ## Contributing
 As I use this for my own projects, I know this might not be the perfect approach
 for all the projects out there. If you have any ideas, just
